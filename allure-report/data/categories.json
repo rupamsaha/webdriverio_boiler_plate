@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience'\n                + 'flight, browse our flight offers and explore the Emirates Experience'",
+      "children" : [ {
+        "name" : "should load homepage",
+        "uid" : "2b55dd54b080c306",
+        "parentUid" : "42701b364ae627fe1ee31732ac583269",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578413299848,
+          "stop" : 1578413304911,
+          "duration" : 5063
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "42701b364ae627fe1ee31732ac583269"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

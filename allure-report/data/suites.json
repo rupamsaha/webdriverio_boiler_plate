@@ -1,0 +1,104 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Home Page",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "4e1a7c3843992abc",
+      "parentUid" : "d0066b610dc3383986e9ee25c4a2b04f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578413299841,
+        "stop" : 1578413299847,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should load homepage",
+      "uid" : "2b55dd54b080c306",
+      "parentUid" : "d0066b610dc3383986e9ee25c4a2b04f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1578413299848,
+        "stop" : 1578413304911,
+        "duration" : 5063
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should search",
+      "uid" : "10d91204453e8c0e",
+      "parentUid" : "d0066b610dc3383986e9ee25c4a2b04f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578413304912,
+        "stop" : 1578413316665,
+        "duration" : 11753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "\"after all\" hook",
+      "uid" : "4981777c2ff0d449",
+      "parentUid" : "d0066b610dc3383986e9ee25c4a2b04f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578413316666,
+        "stop" : 1578413316668,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "d0066b610dc3383986e9ee25c4a2b04f"
+  }, {
+    "name" : "Employee base origin homepage",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "57c8d6178e168f26",
+      "parentUid" : "cdb01a3be06847bd9f9b17cd545366a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600181391556,
+        "stop" : 1600181391559,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify that user is able to fetch the place of origin for an employee",
+      "uid" : "48494e87d9aa0d5d",
+      "parentUid" : "cdb01a3be06847bd9f9b17cd545366a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600181391559,
+        "stop" : 1600181392510,
+        "duration" : 951
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "\"after all\" hook",
+      "uid" : "56fbbcc89af8b117",
+      "parentUid" : "cdb01a3be06847bd9f9b17cd545366a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600181392511,
+        "stop" : 1600181392512,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "cdb01a3be06847bd9f9b17cd545366a9"
+  } ]
+}

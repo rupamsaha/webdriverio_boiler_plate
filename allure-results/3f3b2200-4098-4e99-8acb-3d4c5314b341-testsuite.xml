@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1600179983753' stop='1600179984585'>
+    <name>Employee base origin homepage</name>
+    <title>Employee base origin homepage</title>
+    <test-cases>
+        <test-case start='1600179983753' status='passed' stop='1600179983771'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600179983771' status='failed' stop='1600179984581'>
+            <name>Verify that user is able to fetch the place of origin for an employee</name>
+            <title>Verify that user is able to fetch the place of origin for an employee</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Input A expected to strictly equal input B:
+                + expected - actual
+                
+                - 'Andrew is from Tacoma'
+                + 'Andrew is from Ta'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Input A expected to strictly equal input B:
+                + expected - actual
+                
+                - 'Andrew is from Tacoma'
+                + 'Andrew is from Ta'
+                    at Context.it (/Users/rupamsaha/Desktop/Work/Tech/webdriverio_boiler_plate/test/specs/home.js:21:16)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1600179984582' status='passed' stop='1600179984584'>
+            <name>"after all" hook</name>
+            <title>"after all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

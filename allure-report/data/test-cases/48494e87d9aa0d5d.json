@@ -1,0 +1,205 @@
+{
+  "uid" : "48494e87d9aa0d5d",
+  "name" : "Verify that user is able to fetch the place of origin for an employee",
+  "fullName" : "Employee base origin homepage.Verify that user is able to fetch the place of origin for an employee",
+  "historyId" : "6a8039f2faadb2007f5373cbe959b6ce",
+  "time" : {
+    "start" : 1600181391559,
+    "stop" : 1600181392510,
+    "duration" : 951
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify that user is able to fetch the place of origin for an employee"
+  }, {
+    "name" : "package",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d43b8dd6ad13593e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600181318051,
+        "stop" : 1600181319140,
+        "duration" : 1089
+      }
+    }, {
+      "uid" : "3e09829e9ce0160f",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#listitem0listBoxSelected\" because element wasn't found",
+      "time" : {
+        "start" : 1600181141287,
+        "stop" : 1600181152326,
+        "duration" : 11039
+      }
+    }, {
+      "uid" : "de1c110bc99937c7",
+      "status" : "broken",
+      "statusDetails" : "employeeCheckboxElement[i].getText is not a function",
+      "time" : {
+        "start" : 1600181024937,
+        "stop" : 1600181025617,
+        "duration" : 680
+      }
+    }, {
+      "uid" : "9a94d0910fab3e26",
+      "status" : "broken",
+      "statusDetails" : "employeeCheckboxElement[i].getText is not a function",
+      "time" : {
+        "start" : 1600180981269,
+        "stop" : 1600180981972,
+        "duration" : 703
+      }
+    }, {
+      "uid" : "6038c25746ffc4d",
+      "status" : "broken",
+      "statusDetails" : "employee1CheckboxElement is not defined",
+      "time" : {
+        "start" : 1600180950437,
+        "stop" : 1600180951216,
+        "duration" : 779
+      }
+    }, {
+      "uid" : "3f2e7c9183ec2bd3",
+      "status" : "failed",
+      "statusDetails" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'Andrew is from Tacoma'\n                + 'Andrew is from Ta'",
+      "time" : {
+        "start" : 1600179983771,
+        "stop" : 1600179984581,
+        "duration" : 810
+      }
+    }, {
+      "uid" : "e6dd544e3b5a6714",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600179971806,
+        "stop" : 1600179972990,
+        "duration" : 1184
+      }
+    }, {
+      "uid" : "170f9c198a06f95a",
+      "status" : "failed",
+      "statusDetails" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'Andrew is from Tacoma'\n                + 'Andrew is from Tacom'",
+      "time" : {
+        "start" : 1600179790270,
+        "stop" : 1600179791221,
+        "duration" : 951
+      }
+    }, {
+      "uid" : "5ba4450baa038d1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600179777619,
+        "stop" : 1600179778507,
+        "duration" : 888
+      }
+    }, {
+      "uid" : "88708f3213ad9527",
+      "status" : "broken",
+      "statusDetails" : "home.employeeDetailsRow is not a function",
+      "time" : {
+        "start" : 1600179753005,
+        "stop" : 1600179753862,
+        "duration" : 857
+      }
+    }, {
+      "uid" : "843037df970bcb30",
+      "status" : "broken",
+      "statusDetails" : "home.employeeDetailsRow is not a function",
+      "time" : {
+        "start" : 1600179743298,
+        "stop" : 1600179744081,
+        "duration" : 783
+      }
+    }, {
+      "uid" : "c1ba294d3a51f176",
+      "status" : "broken",
+      "statusDetails" : "home.employeeDetailsRow(...).getText is not a function",
+      "time" : {
+        "start" : 1600179690638,
+        "stop" : 1600179691436,
+        "duration" : 798
+      }
+    }, {
+      "uid" : "5f45b3562e9e9537",
+      "status" : "broken",
+      "statusDetails" : "employee1CheckboxElement is not defined",
+      "time" : {
+        "start" : 1600179665405,
+        "stop" : 1600179666247,
+        "duration" : 842
+      }
+    }, {
+      "uid" : "de42de82efcd1f62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600179104916,
+        "stop" : 1600179105651,
+        "duration" : 735
+      }
+    }, {
+      "uid" : "e58feefcba6dda92",
+      "status" : "broken",
+      "statusDetails" : "employee1CheckboxElement.clck is not a function",
+      "time" : {
+        "start" : 1600179090947,
+        "stop" : 1600179091629,
+        "duration" : 682
+      }
+    }, {
+      "uid" : "3823a9654083dc7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600179047717,
+        "stop" : 1600179048432,
+        "duration" : 715
+      }
+    }, {
+      "uid" : "9d02ccf5ef02e070",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600178719355,
+        "stop" : 1600178720080,
+        "duration" : 725
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48494e87d9aa0d5d.json",
+  "parameterValues" : [ "chrome" ]
+}

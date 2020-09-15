@@ -1,0 +1,58 @@
+{
+  "uid" : "3e09829e9ce0160f",
+  "name" : "Verify that user is able to fetch the place of origin for an employee",
+  "fullName" : "Employee base origin homepage.Verify that user is able to fetch the place of origin for an employee",
+  "historyId" : "6a8039f2faadb2007f5373cbe959b6ce",
+  "time" : {
+    "start" : 1600181141287,
+    "stop" : 1600181152326,
+    "duration" : 11039
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"#listitem0listBoxSelected\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"#listitem0listBoxSelected\" because element wasn't found\n                    at Home.employeeDetailsRowText (/Users/rupamsaha/Desktop/Work/Tech/webdriverio_boiler_plate/pages/home.js:14:24)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify that user is able to fetch the place of origin for an employee"
+  }, {
+    "name" : "package",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e09829e9ce0160f.json",
+  "parameterValues" : [ "chrome" ]
+}

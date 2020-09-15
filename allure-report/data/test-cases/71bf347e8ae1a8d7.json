@@ -1,0 +1,56 @@
+{
+  "uid" : "71bf347e8ae1a8d7",
+  "name" : "\"after all\" hook",
+  "fullName" : "Employee base origin homepage.\"after all\" hook",
+  "historyId" : "30cad400282776cb34a44e79542af60e",
+  "time" : {
+    "start" : 1600179753863,
+    "stop" : 1600179753864,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71bf347e8ae1a8d7.json",
+  "parameterValues" : [ "chrome" ]
+}

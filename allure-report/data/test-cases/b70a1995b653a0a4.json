@@ -1,0 +1,56 @@
+{
+  "uid" : "b70a1995b653a0a4",
+  "name" : "\"after all\" hook",
+  "fullName" : "Home Page.\"after all\" hook",
+  "historyId" : "6e0cd0edbf7107746c11bec5ca89e707",
+  "time" : {
+    "start" : 1578413136940,
+    "stop" : 1578413136942,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Home Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b70a1995b653a0a4.json",
+  "parameterValues" : [ "chrome" ]
+}

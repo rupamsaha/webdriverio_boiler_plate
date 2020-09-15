@@ -1,0 +1,56 @@
+{
+  "uid" : "3823a9654083dc7b",
+  "name" : "Verify that user is able to fetch the place of origin for an employee",
+  "fullName" : "Employee base origin homepage.Verify that user is able to fetch the place of origin for an employee",
+  "historyId" : "6a8039f2faadb2007f5373cbe959b6ce",
+  "time" : {
+    "start" : 1600179047717,
+    "stop" : 1600179048432,
+    "duration" : 715
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify that user is able to fetch the place of origin for an employee"
+  }, {
+    "name" : "package",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3823a9654083dc7b.json",
+  "parameterValues" : [ "chrome" ]
+}

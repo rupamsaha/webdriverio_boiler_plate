@@ -1,0 +1,58 @@
+{
+  "uid" : "e58feefcba6dda92",
+  "name" : "Verify that user is able to fetch the place of origin for an employee",
+  "fullName" : "Employee base origin homepage.Verify that user is able to fetch the place of origin for an employee",
+  "historyId" : "6a8039f2faadb2007f5373cbe959b6ce",
+  "time" : {
+    "start" : 1600179090947,
+    "stop" : 1600179091629,
+    "duration" : 682
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "employee1CheckboxElement.clck is not a function",
+  "statusTrace" : "TypeError: employee1CheckboxElement.clck is not a function\n                    at Home.checkFirstEmployeeCheckBox (/Users/rupamsaha/Desktop/Work/Tech/webdriverio_boiler_plate/pages/home.js:11:40)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify that user is able to fetch the place of origin for an employee"
+  }, {
+    "name" : "package",
+    "value" : "Employee base origin homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e58feefcba6dda92.json",
+  "parameterValues" : [ "chrome" ]
+}

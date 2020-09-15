@@ -1,0 +1,64 @@
+{
+  "uid" : "2b55dd54b080c306",
+  "name" : "should load homepage",
+  "fullName" : "Home Page.should load homepage",
+  "historyId" : "ae22181e8fe568c1f38c7d1708c7b0aa",
+  "time" : {
+    "start" : 1578413299848,
+    "stop" : 1578413304911,
+    "duration" : 5063
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience'\n                + 'flight, browse our flight offers and explore the Emirates Experience'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience'\n                + 'flight, browse our flight offers and explore the Emirates Experience'\n                    at Context.it (/Users/rupamsaha/Desktop/Tech/webdriverio_boiler_plate/test/specs/home.js:19:16)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should load homepage"
+  }, {
+    "name" : "package",
+    "value" : "Home Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2b55dd54b080c306.json",
+  "parameterValues" : [ "chrome" ]
+}

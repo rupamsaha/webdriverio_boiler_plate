@@ -1,0 +1,136 @@
+{
+  "30cad400282776cb34a44e79542af60e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56fbbcc89af8b117",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600181392511,
+        "stop" : 1600181392512,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ae22181e8fe568c1f38c7d1708c7b0aa" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b55dd54b080c306",
+      "status" : "failed",
+      "statusDetails" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience'\n                + 'flight, browse our flight offers and explore the Emirates Experience'",
+      "time" : {
+        "start" : 1578413299848,
+        "stop" : 1578413304911,
+        "duration" : 5063
+      }
+    } ]
+  },
+  "e3ae8b925db33e4057c0accef0db72ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10d91204453e8c0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578413304912,
+        "stop" : 1578413316665,
+        "duration" : 11753
+      }
+    } ]
+  },
+  "1933224ee6528a969d4abc1c41bb0b81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57c8d6178e168f26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600181391556,
+        "stop" : 1600181391559,
+        "duration" : 3
+      }
+    } ]
+  },
+  "6e0cd0edbf7107746c11bec5ca89e707" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4981777c2ff0d449",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578413316666,
+        "stop" : 1578413316668,
+        "duration" : 2
+      }
+    } ]
+  },
+  "473fd60a9c1c864c8e8a6d99df480390" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e1a7c3843992abc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578413299841,
+        "stop" : 1578413299847,
+        "duration" : 6
+      }
+    } ]
+  },
+  "6a8039f2faadb2007f5373cbe959b6ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48494e87d9aa0d5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600181391559,
+        "stop" : 1600181392510,
+        "duration" : 951
+      }
+    } ]
+  }
+}

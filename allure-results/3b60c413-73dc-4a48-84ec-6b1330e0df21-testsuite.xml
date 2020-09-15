@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1600181141281' stop='1600181152329'>
+    <name>Employee base origin homepage</name>
+    <title>Employee base origin homepage</title>
+    <test-cases>
+        <test-case start='1600181141282' status='passed' stop='1600181141286'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600181141287' status='broken' stop='1600181152326'>
+            <name>Verify that user is able to fetch the place of origin for an employee</name>
+            <title>Verify that user is able to fetch the place of origin for an employee</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "#listitem0listBoxSelected" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "#listitem0listBoxSelected" because element wasn't found
+                    at Home.employeeDetailsRowText (/Users/rupamsaha/Desktop/Work/Tech/webdriverio_boiler_plate/pages/home.js:14:24)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1600181152327' status='passed' stop='1600181152328'>
+            <name>"after all" hook</name>
+            <title>"after all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

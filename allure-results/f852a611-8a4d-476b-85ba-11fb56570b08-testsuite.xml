@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1578413299840' stop='1578413316670'>
+    <name>Home Page</name>
+    <title>Home Page</title>
+    <test-cases>
+        <test-case start='1578413299841' status='passed' stop='1578413299847'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1578413299848' status='failed' stop='1578413304911'>
+            <name>should load homepage</name>
+            <title>should load homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Input A expected to strictly equal input B:
+                + expected - actual
+                
+                - 'Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience'
+                + 'flight, browse our flight offers and explore the Emirates Experience'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Input A expected to strictly equal input B:
+                + expected - actual
+                
+                - 'Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience'
+                + 'flight, browse our flight offers and explore the Emirates Experience'
+                    at Context.it (/Users/rupamsaha/Desktop/Tech/webdriverio_boiler_plate/test/specs/home.js:19:16)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1578413304912' status='passed' stop='1578413316665'>
+            <name>should search</name>
+            <title>should search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1578413316666' status='passed' stop='1578413316668'>
+            <name>"after all" hook</name>
+            <title>"after all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
